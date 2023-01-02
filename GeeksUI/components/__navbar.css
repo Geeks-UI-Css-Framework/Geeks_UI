@@ -1,0 +1,41 @@
+/* 
+  Author joey@tech-center.com (Joey Cadieux)
+  ----------------------------------
+  Geeks UI Css Framework
+  Light Css Components Library For Developers 
+ */
+
+:root {
+    --geeks_ui-color: white;
+    --geeks_ui-base: lightslategray;
+    --geeks_ui-info: darkblue;
+    --geeks_ui-secondary: gray;
+    --geeks_ui-warning: firebrick;
+    --geeks_ui-primary: DodgerBlue;
+    --geeks_ui-text-align: center;
+    --geeks_ui-padding: 150px;
+    --geeks_ui-background-color: #303846;
+    /* optional */
+}
+
+
+nav __navbar {
+    color: var();
+    padding: var();
+    background-color: var();
+}
+
+
+nav __navbar_a {
+    color: var();
+    text-decoration: var();
+    font-family: var();
+    font-size: var();
+}
+
+nav __navbar a:hover {
+    color: var();
+    text-decoration: var();
+    font-family: var();
+    font-size: var();
+}
