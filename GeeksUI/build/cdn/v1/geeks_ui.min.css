@@ -6,17 +6,20 @@
  */
 
 /* 
- Geeks UI
- Cdn Link
- https://geeks-ui-cdn.netlify.app/build/cdn/v1/geeks_ui.min.css
- */
-
-/* 
   Author joey@tech-center.com (Joey Cadieux)
   ----------------------------------
   Geeks UI Css Framework
   Light Css Components Library For Developers 
  */
+
+
+/* 
+ Geeks UI
+ Cdn Link
+ https://geeks-ui-cdn.netlify.app/build/cdn/v1/geeks_ui.min.css
+ */
+
+
 
 /* Alerts Components */
 :root {
@@ -164,6 +167,7 @@ footer __footer base {
 	color: var(--geeks_ui-color);
 	text-align: var(--geeks_ui-text-align);
 }
+
 footer __footer info {
 	color: var(--geeks_ui-info);
 	position: var(--geeks_ui--position);
@@ -174,6 +178,7 @@ footer __footer info {
 	color: var(--geeks_ui-color);
 	text-align: var(--geeks_ui-text-align);
 }
+
 footer __footer secondary {
 	color: var(--geeks_ui-secondary);
 	position: var(--geeks_ui--position);
@@ -184,6 +189,7 @@ footer __footer secondary {
 	color: var(--geeks_ui-color);
 	text-align: var(--geeks_ui-text-align);
 }
+
 footer __footer primary {
 	color: var(--geeks_ui-primary);
 	position: var(--geeks_ui--position);
@@ -194,6 +200,7 @@ footer __footer primary {
 	color: var(--geeks_ui-color);
 	text-align: var(--geeks_ui-text-align);
 }
+
 footer __footer warning {
 	color: var(--geeks_ui-warning);
 	position: var(--geeks_ui--position);
@@ -215,7 +222,8 @@ footer __footer warning {
 	--geeks_ui-warning: firebrick;
 	--geeks_ui-primary: DodgerBlue;
 	--geeks_ui-text-align: center;
-	--geeks_ui-background-color: #303846; /* optional */
+	--geeks_ui-background-color: #303846;
+	/* optional */
 }
 
 header __header base {
@@ -272,7 +280,8 @@ header __header primary {
 	--geeks_ui-padding: 20px;
 	--geeks_ui-display: grid;
 	--geeks_ui-grid-template-columns: auto auto auto auto;
-	--geks_ui-border-radius: 5px; /* default */
+	--geks_ui-border-radius: 5px;
+	/* default */
 }
 
 container __container base {
