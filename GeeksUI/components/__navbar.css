@@ -20,9 +20,9 @@
 
 
 nav __navbar {
-    color: var();
-    padding: var();
-    background-color: var();
+    color: var(--geeks_ui-color);
+    padding: var(--geeks_ui-padding);
+    background-color: var(--geeks_ui-background-color);
 }
 
 
