@@ -2,44 +2,63 @@
   <h1>🚀 Geeks UI</h1>
   <p><strong>A Modern, Lightweight CSS Framework for Developers</strong></p>
   
-  [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/joeycadieux/geeks-ui)
+  [![NPM Version](https://img.shields.io/npm/v/geeks-ui-framework.svg)](https://www.npmjs.com/package/geeks-ui-framework)
+  [![NPM Downloads](https://img.shields.io/npm/dm/geeks-ui-framework.svg)](https://www.npmjs.com/package/geeks-ui-framework)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-  [![CSS](https://img.shields.io/badge/CSS-Framework-blueviolet.svg)](https://geeks-ui-cdn.netlify.app/)
-  [![CDN](https://img.shields.io/badge/CDN-Available-brightgreen.svg)](https://geeks-ui-cdn.netlify.app/build/cdn/v1/geeks_ui.min.css)
+  [![GitHub Stars](https://img.shields.io/github/stars/Geeks-UI-Css-Framework/Geeks_UI.svg)](https://github.com/Geeks-UI-Css-Framework/Geeks_UI)
+  [![CSS Framework](https://img.shields.io/badge/CSS-Framework-blueviolet.svg)](https://geeks-ui-css-framework.github.io/Geeks_UI/)
   
   <p>Build beautiful, responsive interfaces with minimal effort using our carefully crafted component library.</p>
   
-  [📖 Documentation](#documentation) • [🎨 Demo](demo/index.html) • [⚡ Get Started](#quick-start) • [🤝 Contributing](#contributing)
+  [📦 NPM Package](https://www.npmjs.com/package/geeks-ui-framework) • [🎨 Live Demo](https://geeks-ui-css-framework.github.io/Geeks_UI/) • [📖 Documentation](#documentation) • [⚡ Get Started](#quick-start) • [🤝 Contributing](#contributing)
 </div>
 
 ---
 
 ## ✨ Features
 
-- 🎯 **Lightweight** - Minimal footprint, maximum impact
+- 📦 **NPM Package** - Easy installation and version management
+- 🎯 **Lightweight** - Only 5.2KB minified, 24.3KB unpacked
 - 📱 **Responsive** - Mobile-first design approach
 - 🎨 **Customizable** - CSS custom properties for easy theming
-- ⚡ **Fast** - Optimized for performance
+- ⚡ **Fast** - Optimized for performance and quick loading
 - 🔧 **Developer-friendly** - Clean, semantic class names
-- 🌐 **CDN Ready** - Instant integration via CDN
+- 🌐 **CDN Ready** - Multiple integration options
 - 🎭 **Modern** - Built with current web standards
+- ♿ **Accessible** - WCAG compliant components
+- 🔄 **Zero Dependencies** - Pure CSS framework
 
 ## 🚀 Quick Start
 
-### CDN Installation (Recommended)
-Simply add this line to your HTML `<head>` section:
+### 📦 NPM Installation (Recommended)
+
+Install via NPM for modern build workflows:
+
+```bash
+npm install geeks-ui-framework
+```
+
+Then import in your CSS:
+```css
+@import 'geeks-ui-framework/dist/geeks-ui.css';
+```
+
+Or import the minified version:
+```css
+@import 'geeks-ui-framework/dist/geeks-ui.min.css';
+```
+
+### 🌐 CDN Installation (Quick Start)
+
+Add this line to your HTML `<head>` section:
 
 ```html
-<link rel="stylesheet" href="https://geeks-ui-cdn.netlify.app/build/cdn/v1/geeks_ui.min.css">
+<link rel="stylesheet" href="https://unpkg.com/geeks-ui-framework@latest/dist/geeks-ui.min.css">
 ```
 
-### NPM Installation
-```bash
-npm install geeksui
-```
+### 📥 Download
 
-### Download
-Download the latest release from our [GitHub repository](https://github.com/joeycadieux/geeks-ui/releases).
+Download the latest release from our [GitHub repository](https://github.com/Geeks-UI-Css-Framework/Geeks_UI/releases).
 
 ## 📖 Documentation
 
@@ -89,116 +108,154 @@ Versatile buttons for all your interaction needs:
 <button class="btn btn-primary btn-lg">Large</button>
 ```
 
+### 🧭 Navigation Components
+
+Modern navigation bars and menus:
+
+```html
+<!-- Basic Navbar -->
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a href="#">Your Brand</a>
+  </div>
+  <div class="navbar-menu">
+    <a href="#" class="navbar-item">Home</a>
+    <a href="#" class="navbar-item">About</a>
+    <a href="#" class="navbar-item">Contact</a>
+  </div>
+</nav>
+```
+
 ### 📦 Container & Layout
 
-Responsive containers and grid systems:
+Responsive containers and layout systems:
 
 ```html
 <!-- Main Container -->
 <div class="container">
   <h1>Your Content Here</h1>
+  <p>Responsive content that adapts to screen size.</p>
 </div>
 
 <!-- Fluid Container -->
 <div class="container-fluid">
-  <p>Full-width content</p>
+  <h2>Full-width content</h2>
 </div>
 ```
 
-### 🧭 Navigation Components
-
-Clean and accessible navigation:
-
-```html
-<!-- Header Navigation -->
-<header class="header">
-  <nav class="navbar">
-    <div class="navbar-brand">
-      <a href="#">Geeks UI</a>
-    </div>
-    <ul class="navbar-nav">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-```
-
-### 🦶 Footer Component
+### 🦶 Footer Components
 
 Professional footer layouts:
 
 ```html
 <footer class="footer">
   <div class="container">
-    <p>&copy; 2025 Your Company. Built with Geeks UI.</p>
+    <div class="footer-content">
+      <h3>Your Company</h3>
+      <p>Building amazing web experiences.</p>
+    </div>
   </div>
 </footer>
 ```
 
 ## 🎨 Customization
 
+### CSS Custom Properties
+
 Geeks UI uses CSS custom properties for easy theming:
 
 ```css
 :root {
-  --geeks-ui-primary: #your-brand-color;
-  --geeks-ui-secondary: #your-secondary-color;
-  --geeks-ui-font-family: 'Your Font', sans-serif;
-  /* Override any variable to match your brand */
+  --primary-color: #667eea;
+  --secondary-color: #764ba2;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --danger-color: #ef4444;
+  --info-color: #3b82f6;
 }
 ```
 
+### Override Default Styles
+
+```css
+/* Custom button styling */
+.btn-primary {
+  --primary-color: #your-color;
+  background: var(--primary-color);
+}
+```
+
+## 🏗️ Build Process
+
+If you're contributing or want to build from source:
+
+```bash
+# Clone the repository
+git clone https://github.com/Geeks-UI-Css-Framework/Geeks_UI.git
+
+# Navigate to the GeeksUI package directory
+cd Geeks_UI/GeeksUI
+
+# Install dependencies
+npm install
+
+# Build the CSS
+npm run build
+
+# Watch for changes
+npm run dev
+```
+
+## 📊 Package Stats
+
+- **Size**: 5.2KB (minified)
+- **Unpacked Size**: 24.3KB
+- **Files**: 13 total files
+- **Dependencies**: 0 (zero dependencies!)
+- **License**: MIT
+- **Latest Version**: Check [NPM](https://www.npmjs.com/package/geeks-ui-framework)
+
 ## 🌐 Browser Support
 
-| Browser | Version |
-|---------|---------|
-| Chrome | ✅ Latest |
-| Firefox | ✅ Latest |
-| Safari | ✅ Latest |
-| Edge | ✅ Latest |
-| Opera | ✅ Latest |
+Geeks UI supports all modern browsers:
 
-## 📊 Performance
-
-- **CSS Size**: ~15KB minified
-- **No JavaScript**: Pure CSS solution
-- **CDN Cached**: Global delivery network
-- **Load Time**: < 100ms
+- ✅ Chrome (latest)
+- ✅ Firefox (latest)
+- ✅ Safari (latest)
+- ✅ Edge (latest)
+- ✅ Opera (latest)
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Here's how you can help:
+We welcome contributions! Here's how you can help:
 
-### Development Setup
+### 🐛 Reporting Bugs
 
-1. **Fork & Clone**
-   ```bash
-   git clone https://github.com/yourusername/geeks-ui.git
-   cd geeks-ui
-   ```
+1. Check [existing issues](https://github.com/Geeks-UI-Css-Framework/Geeks_UI/issues)
+2. Create a [new issue](https://github.com/Geeks-UI-Css-Framework/Geeks_UI/issues/new) with:
+   - Clear description of the problem
+   - Steps to reproduce
+   - Expected vs actual behavior
+   - Browser and version information
 
-2. **Create Feature Branch**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
+### 💡 Feature Requests
 
-3. **Make Changes**
-   - Edit source files in `/src`
-   - Test your changes with the demo page
-   - Follow our coding standards
+1. Check [existing issues](https://github.com/Geeks-UI-Css-Framework/Geeks_UI/issues) for similar requests
+2. Create a [new feature request](https://github.com/Geeks-UI-Css-Framework/Geeks_UI/issues/new) with:
+   - Clear description of the feature
+   - Use case and benefits
+   - Proposed implementation (if any)
 
-4. **Commit & Push**
-   ```bash
-   git commit -m "Add amazing feature"
-   git push origin feature/amazing-feature
-   ```
+### 🔧 Pull Requests
 
-5. **Open Pull Request**
-   - Describe your changes
-   - Include screenshots if applicable
-   - Reference any related issues
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Make your changes
+4. Add tests if applicable
+5. Update documentation
+6. Commit your changes: `git commit -m 'Add amazing feature'`
+7. Push to the branch: `git push origin feature/amazing-feature`
+8. Open a Pull Request
 
 ### Contribution Guidelines
 
@@ -207,6 +264,7 @@ We welcome contributions from the community! Here's how you can help:
 - 📚 Update documentation when needed
 - 🎨 Maintain consistent code style
 - ♿ Ensure accessibility compliance
+- 📦 Update package version if needed
 
 ## 📄 License
 
@@ -219,15 +277,39 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - 🐙 GitHub: [@joeycadieux](https://github.com/joeycadieux)
 - 🌐 Website: [tech-center.com](https://tech-center.com)
 
+## 🔗 Links
+
+- 📦 **NPM Package**: [geeks-ui-framework](https://www.npmjs.com/package/geeks-ui-framework)
+- 🌐 **Live Demo**: [GitHub Pages](https://geeks-ui-css-framework.github.io/Geeks_UI/)
+- 📁 **GitHub Repository**: [Geeks_UI](https://github.com/Geeks-UI-Css-Framework/Geeks_UI)
+- 🐛 **Issues**: [Report Issues](https://github.com/Geeks-UI-Css-Framework/Geeks_UI/issues)
+- 📋 **Releases**: [View Releases](https://github.com/Geeks-UI-Css-Framework/Geeks_UI/releases)
+
 ## 🙏 Acknowledgments
 
-- Inspired by modern CSS frameworks
+- Inspired by modern CSS frameworks like Bootstrap and Tailwind
 - Built with ❤️ for the developer community
-- Special thanks to all contributors
+- Special thanks to all contributors and users
+- Designed for developers who value simplicity and performance
+
+## 📈 Roadmap
+
+- [ ] Additional components (forms, cards, modals)
+- [ ] Dark theme support
+- [ ] Advanced grid system
+- [ ] Animation utilities
+- [ ] React/Vue component wrappers
+- [ ] Accessibility improvements
+- [ ] Performance optimizations
 
 ---
 
 <div align="center">
   <p>Made with ❤️ by developers, for developers</p>
-  <p><strong>Star ⭐ this repo if you find it helpful!</strong></p>
+  <p><strong>⭐ Star this repo if you find it helpful!</strong></p>
+  <p>
+    <a href="https://www.npmjs.com/package/geeks-ui-framework">📦 NPM</a> •
+    <a href="https://geeks-ui-css-framework.github.io/Geeks_UI/">🌐 Demo</a> •
+    <a href="https://github.com/Geeks-UI-Css-Framework/Geeks_UI">🐙 GitHub</a>
+  </p>
 </div>
