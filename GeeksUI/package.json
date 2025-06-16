@@ -1,6 +1,6 @@
 {
   "name": "geeks-ui-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern, lightweight CSS framework for developers. Build beautiful interfaces with minimal effort.",
   "main": "dist/geeks-ui.css",
   "style": "dist/geeks-ui.css",
@@ -38,10 +38,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joeycadieux/geeks-ui.git"
+    "url": "git+https://github.com/Geeks-UI-Css-Framework.git"
   },
   "bugs": {
-    "url": "https://github.com/joeycadieux/geeks-ui/issues"
+    "url": "https://github.com/Geeks-UI-Css-Framework/issues"
   },
   "homepage": "https://geeks-ui-cdn.netlify.app",
   "devDependencies": {

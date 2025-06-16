@@ -18,7 +18,7 @@ npm install geeks-ui-framework
 ```
 
 ### Download
-Download the latest release from our [GitHub repository](https://github.com/joeycadieux/geeks-ui/releases).
+Download the latest release from our [GitHub repository](https://github.com/Geeks-UI-Css-Framework/releases).
 
 ## 📖 Usage
 
@@ -113,5 +113,5 @@ MIT © [Joey Cadieux](https://tech-center.com)
 ## 📧 Support
 
 - 📧 Email: joey@tech-center.com
-- 🐙 GitHub: [Issues](https://github.com/joeycadieux/geeks-ui/issues)
+- 🐙 GitHub: [Issues](https://github.com/Geeks-UI-Css-Framework/issues)
 - 🌐 Website: [tech-center.com](https://tech-center.com)
