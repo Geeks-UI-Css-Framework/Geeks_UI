@@ -1,0 +1,43 @@
+/* 
+  Geeks UI - Alert Components
+  Contextual feedback messages for typical user actions
+*/
+
+.alert {
+    padding: var(--geeks-ui-padding);
+    margin-bottom: var(--geeks-ui-margin-bottom);
+    border-radius: var(--geeks-ui-border-radius);
+    color: var(--geeks-ui-text-light);
+    font-size: var(--geeks-ui-font-size);
+    transition: var(--geeks-ui-transition);
+}
+
+.alert-primary {
+    background-color: var(--geeks-ui-primary);
+    color: var(--geeks-ui-text-light);
+}
+
+.alert-secondary {
+    background-color: var(--geeks-ui-secondary);
+    color: var(--geeks-ui-text-light);
+}
+
+.alert-success {
+    background-color: var(--geeks-ui-success);
+    color: var(--geeks-ui-text-light);
+}
+
+.alert-info {
+    background-color: var(--geeks-ui-info);
+    color: var(--geeks-ui-text-light);
+}
+
+.alert-warning {
+    background-color: var(--geeks-ui-warning);
+    color: var(--geeks-ui-text-light);
+}
+
+.alert-base {
+    background-color: var(--geeks-ui-base);
+    color: var(--geeks-ui-text-light);
+}

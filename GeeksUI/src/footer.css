@@ -1,0 +1,28 @@
+/* 
+  Geeks UI - Footer Components
+  Footer styling and layout
+*/
+
+.footer {
+    background-color: var(--geeks-ui-secondary);
+    color: var(--geeks-ui-text-light);
+    padding: 2rem 0;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.footer a {
+    color: var(--geeks-ui-text-light);
+    text-decoration: none;
+    transition: var(--geeks-ui-transition);
+}
+
+.footer a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}

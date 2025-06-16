@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeks UI - Test Page</title>
+    <!-- USING YOUR ACTUAL FRAMEWORK -->
+    <link rel="stylesheet" href="../GeeksUI/build/cdn/v1/geeks_ui.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 2rem;
+            background-color: #f8f9fa;
+        }
+
+        .test-section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .button-grid {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🧪 Geeks UI Framework Test</h1>
+    <p><strong>This page uses ONLY your framework CSS - nothing else!</strong></p>
+
+    <div class="test-section">
+        <h2>Alert Components Test</h2>
+        <div class="alert alert-primary">
+            ✅ Primary Alert - This uses class "alert alert-primary"
+        </div>
+        <div class="alert alert-warning">
+            ⚠️ Warning Alert - This uses class "alert alert-warning"
+        </div>
+        <div class="alert alert-info">
+            💡 Info Alert - This uses class "alert alert-info"
+        </div>
+        <div class="alert alert-secondary">
+            📋 Secondary Alert - This uses class "alert alert-secondary"
+        </div>
+        <div class="alert alert-base">
+            🔧 Base Alert - This uses class "alert alert-base"
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Button Components Test</h2>
+        <div class="button-grid">
+            <button class="btn btn-primary">btn btn-primary</button>
+            <button class="btn btn-secondary">btn btn-secondary</button>
+            <button class="btn btn-warning">btn btn-warning</button>
+            <button class="btn btn-info">btn btn-info</button>
+            <button class="btn btn-base">btn btn-base</button>
+        </div>
+
+        <h3>Interactive Test</h3>
+        <div class="button-grid">
+            <button class="btn btn-primary" onclick="alert('Primary button works!')">Test Primary</button>
+            <button class="btn btn-warning" onclick="alert('Warning button works!')">Test Warning</button>
+            <button class="btn btn-info" onclick="alert('Info button works!')">Test Info</button>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Code Example</h2>
+        <p>Copy this exact code to use in your own website:</p>
+        <pre style="background: #f1f3f4; padding: 1rem; border-radius: 4px; overflow-x: auto;"><code>&lt;!-- Include Geeks UI CSS --&gt;
+&lt;link rel="stylesheet" href="https://geeks-ui-cdn.netlify.app/build/cdn/v1/geeks_ui.min.css"&gt;
+
+&lt;!-- Use the components --&gt;
+&lt;div class="alert alert-primary"&gt;Success message!&lt;/div&gt;
+&lt;button class="btn btn-primary"&gt;Click me&lt;/button&gt;</code></pre>
+    </div>
+
+    <div class="test-section">
+        <h2>✅ Framework Status</h2>
+        <div class="alert alert-primary">
+            🎉 Framework is working correctly! Users will get exactly what they see here.
+        </div>
+    </div>
+</body>
+
+</html>

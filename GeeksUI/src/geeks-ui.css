@@ -1,0 +1,33 @@
+/*!
+ * Geeks UI v1.0.0
+ * A modern, lightweight CSS framework for developers
+ * https://geeks-ui-cdn.netlify.app
+ * 
+ * Copyright 2025 Joey Cadieux
+ * Licensed under MIT
+ */
+
+/* Import all components */
+@import url('./variables.css');
+@import url('./layout.css');
+@import url('./alerts.css');
+@import url('./buttons.css');
+@import url('./navigation.css');
+@import url('./footer.css');
+
+/* Global resets and base styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: var(--geeks-ui-font-size);
+    font-weight: var(--geeks-ui-font-weight-normal);
+    line-height: 1.5;
+    color: var(--geeks-ui-text-primary);
+    background-color: #fff;
+}

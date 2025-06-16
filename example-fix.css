@@ -1,0 +1,45 @@
+/* Example of how your selectors should look */
+
+/* Alert Components - Fixed */
+.alert {
+    padding: var(--geeks-ui-padding);
+    margin-bottom: var(--geeks-ui-margin-bottom);
+    border-radius: 4px;
+}
+
+.alert-base {
+    background-color: var(--geeks-ui-base);
+    color: var(--geeks-ui-text-color);
+}
+
+.alert-primary {
+    background-color: var(--geeks-ui-primary);
+    color: white;
+}
+
+.alert-warning {
+    background-color: var(--geeks-ui-warning);
+    color: white;
+}
+
+/* Button Components - Fixed */
+.btn {
+    padding: var(--geeks-ui-padding);
+    border: var(--geeks-ui-border);
+    text-align: var(--geeks-ui-text-align);
+    text-decoration: var(--geeks-ui-text-decoration);
+    display: var(--geeks-ui-display);
+    font-size: var(--geeks-ui-font-size);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-base {
+    background-color: var(--geeks-ui-base);
+    color: white;
+}
+
+.btn-primary {
+    background-color: var(--geeks-ui-primary);
+    color: white;
+}

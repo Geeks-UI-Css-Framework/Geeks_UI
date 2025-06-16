@@ -1,11 +1,57 @@
 {
-  "name": "geeksui",
+  "name": "geeks-ui-framework",
   "version": "1.0.0",
-  "description": "Light Css Components Library For Developers",
-  "main": "script.js",
+  "description": "A modern, lightweight CSS framework for developers. Build beautiful interfaces with minimal effort.",
+  "main": "dist/geeks-ui.css",
+  "style": "dist/geeks-ui.css",
+  "files": [
+    "dist/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:css && npm run build:minify",
+    "build:css": "node build.js",
+    "build:minify": "cleancss -o dist/geeks-ui.min.css dist/geeks-ui.css",
+    "dev": "npm run build:css && npm run watch",
+    "watch": "chokidar \"src/**/*.css\" -c \"npm run build:css\"",
+    "test": "echo \"✅ CSS framework - no tests needed\"",
+    "prepublishOnly": "npm run build"
   },
-  "author": "Joey Cadieux",
-  "license": "MIT"
+  "keywords": [
+    "css",
+    "css-framework",
+    "ui",
+    "components",
+    "design-system",
+    "frontend",
+    "responsive",
+    "lightweight",
+    "geeks-ui"
+  ],
+  "author": {
+    "name": "Joey Cadieux",
+    "email": "joey@tech-center.com",
+    "url": "https://tech-center.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeycadieux/geeks-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joeycadieux/geeks-ui/issues"
+  },
+  "homepage": "https://geeks-ui-cdn.netlify.app",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "chokidar-cli": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

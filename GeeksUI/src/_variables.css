@@ -1,0 +1,50 @@
+/* 
+  Geeks UI - CSS Variables
+  Centralized design tokens
+*/
+
+:root {
+    /* Colors */
+    --geeks-ui-primary: #1e90ff;
+    /* DodgerBlue */
+    --geeks-ui-secondary: #6c757d;
+    /* Gray */
+    --geeks-ui-success: #28a745;
+    /* Green */
+    --geeks-ui-info: #17a2b8;
+    /* Cyan */
+    --geeks-ui-warning: #ffc107;
+    /* Yellow */
+    --geeks-ui-danger: #dc3545;
+    /* Red */
+    --geeks-ui-light: #f8f9fa;
+    /* Light Gray */
+    --geeks-ui-dark: #343a40;
+    /* Dark Gray */
+
+    /* Text Colors */
+    --geeks-ui-text-primary: #212529;
+    --geeks-ui-text-secondary: #6c757d;
+    --geeks-ui-text-light: #ffffff;
+
+    /* Spacing */
+    --geeks-ui-padding-sm: 0.5rem 1rem;
+    --geeks-ui-padding-md: 0.75rem 1.5rem;
+    --geeks-ui-padding-lg: 1rem 2rem;
+    --geeks-ui-margin-bottom: 1rem;
+
+    /* Typography */
+    --geeks-ui-font-size-sm: 0.875rem;
+    --geeks-ui-font-size-md: 1rem;
+    --geeks-ui-font-size-lg: 1.25rem;
+    --geeks-ui-font-weight-normal: 400;
+    --geeks-ui-font-weight-bold: 600;
+
+    /* Border */
+    --geeks-ui-border-radius: 0.375rem;
+    --geeks-ui-border-width: 1px;
+    --geeks-ui-border-color: #dee2e6;
+
+    /* Transitions */
+    --geeks-ui-transition: all 0.15s ease-in-out;
+}
