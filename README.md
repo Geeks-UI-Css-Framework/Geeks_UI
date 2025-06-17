@@ -62,33 +62,35 @@ Download the latest release from our [GitHub repository](https://github.com/Geek
 
 ## 📖 Documentation
 
-### 🚨 Alert Components
+**🎯 [📚 Documentation Hub](DOCUMENTATION-HUB.md) - Your complete guide to all documentation resources!**
+
+Comprehensive documentation and guides to help you get the most out of Geeks UI:
+
+### 📚 User Guides
+- **[📖 Complete Documentation](DOCUMENTATION.md)** - Full component reference with examples
+- **[🚀 Getting Started Guide](GETTING-STARTED.md)** - Beginner-friendly setup instructions
+- **[⚡ Quick Reference](QUICK-REFERENCE.md)** - Handy cheat sheet for developers
+- **[🎮 Interactive Examples](INTERACTIVE-EXAMPLES.html)** - Live playground and demos
+
+### 🔧 Developer Resources  
+- **[� API Reference](API-REFERENCE.md)** - Detailed class documentation and CSS variables
+- **[🔄 Migration Guide](MIGRATION-GUIDE.md)** - Upgrade from older versions
+- **[🚀 Advanced Examples](ADVANCED-EXAMPLES.md)** - Real-world implementation patterns
+
+### 🎯 Quick Examples
+
+#### �🚨 Alert Components
 
 Create attention-grabbing alerts with various styles:
 
 ```html
-<!-- Primary Alert -->
-<div class="alert alert-primary">
-  🎉 Welcome to Geeks UI! Your project is now enhanced.
-</div>
-
-<!-- Warning Alert -->
-<div class="alert alert-warning">
-  ⚠️ Please review your settings before proceeding.
-</div>
-
-<!-- Info Alert -->
-<div class="alert alert-info">
-  💡 Pro tip: Use semantic HTML for better accessibility.
-</div>
-
-<!-- Success Alert -->
-<div class="alert alert-success">
-  ✅ Your changes have been saved successfully!
-</div>
+<div class="alert alert-primary">🎉 Welcome to Geeks UI!</div>
+<div class="alert alert-success">✅ Changes saved successfully!</div>
+<div class="alert alert-warning">⚠️ Please review your settings.</div>
+<div class="alert alert-danger">❌ An error occurred.</div>
 ```
 
-### 🔘 Button Components
+#### 🔘 Button Components
 
 Versatile buttons for all your interaction needs:
 
