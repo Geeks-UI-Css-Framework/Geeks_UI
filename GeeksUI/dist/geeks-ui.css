@@ -483,7 +483,7 @@
     width: 100%;
 }
 
-.input-group > .form-control {
+.input-group>.form-control {
     position: relative;
     flex: 1 1 auto;
     width: 1%;
@@ -504,22 +504,22 @@
     border: 1px solid var(--border-color);
 }
 
-.input-group > .form-control:not(:last-child) {
+.input-group>.form-control:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.input-group > .form-control:not(:first-child) {
+.input-group>.form-control:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.input-group > .input-group-text:not(:last-child) {
+.input-group>.input-group-text:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.input-group > .input-group-text:not(:first-child) {
+.input-group>.input-group-text:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
@@ -570,13 +570,13 @@
     color: var(--danger-color);
 }
 
-.was-validated .form-control:valid ~ .valid-feedback,
-.form-control.is-valid ~ .valid-feedback {
+.was-validated .form-control:valid~.valid-feedback,
+.form-control.is-valid~.valid-feedback {
     display: block;
 }
 
-.was-validated .form-control:invalid ~ .invalid-feedback,
-.form-control.is-invalid ~ .invalid-feedback {
+.was-validated .form-control:invalid~.invalid-feedback,
+.form-control.is-invalid~.invalid-feedback {
     display: block;
 }
 
@@ -585,13 +585,13 @@
     position: relative;
 }
 
-.form-floating > .form-control {
+.form-floating>.form-control {
     height: calc(3.5rem + 2px);
     line-height: 1.25;
     padding: 1rem 1rem 0.25rem 1rem;
 }
 
-.form-floating > label {
+.form-floating>label {
     position: absolute;
     top: 0;
     left: 0;
@@ -603,12 +603,11 @@
     transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
 }
 
-.form-floating > .form-control:focus ~ label,
-.form-floating > .form-control:not(:placeholder-shown) ~ label {
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label {
     opacity: 0.65;
     transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
 }
-
 
 /* ===================================
    CARDS COMPONENT
@@ -755,7 +754,7 @@
     text-decoration: underline;
 }
 
-.card-link + .card-link {
+.card-link+.card-link {
     margin-left: 1rem;
 }
 
@@ -765,7 +764,7 @@
     flex-direction: column;
 }
 
-.card-group > .card {
+.card-group>.card {
     margin-bottom: 1rem;
 }
 
@@ -890,42 +889,42 @@
     .card-columns {
         column-count: 2;
     }
-    
+
     .card-group,
     .card-deck {
         flex-direction: row;
     }
-    
-    .card-group > .card,
+
+    .card-group>.card,
     .card-deck .card {
         flex: 1 0 0%;
         margin-bottom: 0;
     }
-    
-    .card-group > .card + .card,
-    .card-deck .card + .card {
+
+    .card-group>.card+.card,
+    .card-deck .card+.card {
         margin-left: 1rem;
     }
-    
-    .card-group > .card {
+
+    .card-group>.card {
         border-radius: 0;
     }
-    
-    .card-group > .card:first-child {
+
+    .card-group>.card:first-child {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
     }
-    
-    .card-group > .card:last-child {
+
+    .card-group>.card:last-child {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
     }
-    
-    .card-group > .card:only-child {
+
+    .card-group>.card:only-child {
         border-radius: 0.5rem;
     }
-    
-    .card-group > .card:not(:first-child):not(:last-child) {
+
+    .card-group>.card:not(:first-child):not(:last-child) {
         border-radius: 0;
     }
 }
@@ -935,7 +934,6 @@
         column-count: 3;
     }
 }
-
 
 /* ===================================
    MODAL COMPONENT
@@ -1035,7 +1033,7 @@
     gap: 0.5rem;
 }
 
-.modal-footer > * {
+.modal-footer>* {
     margin: 0;
 }
 
@@ -1110,6 +1108,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -1120,6 +1119,7 @@
         transform: translateY(-50px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
@@ -1146,25 +1146,26 @@
         max-width: 500px;
         margin: 1.75rem auto;
     }
-    
+
     .modal-dialog-centered {
         min-height: calc(100% - 3.5rem);
     }
-    
+
     .modal-sm {
         max-width: 300px;
     }
-    
+
     .modal-lg {
         max-width: 800px;
     }
-    
+
     .modal-xl {
         max-width: 1140px;
     }
 }
 
 @media (min-width: 992px) {
+
     .modal-lg,
     .modal-xl {
         max-width: 800px;
@@ -1244,7 +1245,6 @@
 body.modal-open {
     overflow: hidden;
 }
-
 
 /* ===================================
    BADGE COMPONENT
@@ -1520,10 +1520,12 @@ a.badge-info:focus {
         box-shadow: 0 0 0 0 currentColor;
         opacity: 1;
     }
+
     70% {
         box-shadow: 0 0 0 10px transparent;
         opacity: 0.7;
     }
+
     100% {
         box-shadow: 0 0 0 0 transparent;
         opacity: 1;
@@ -1562,13 +1564,12 @@ a.badge-info:focus {
     .badge-sm-hide {
         display: none;
     }
-    
+
     .badge {
         font-size: 0.625em;
         padding: 0.25em 0.5em;
     }
 }
-
 
 /* Progress Bars Component */
 
@@ -1611,8 +1612,13 @@ a.badge-info:focus {
 }
 
 @keyframes progress-shine {
-    0% { left: -100%; }
-    100% { left: 100%; }
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
 }
 
 /* Progress Bar Variants */
@@ -1648,7 +1654,7 @@ a.badge-info:focus {
 
 /* Striped Progress Bar */
 .progress-bar-striped {
-    background-image: linear-gradient(45deg, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-size: 1rem 1rem;
 }
 
@@ -1657,8 +1663,13 @@ a.badge-info:focus {
 }
 
 @keyframes progress-bar-stripes {
-    0% { background-position: 1rem 0; }
-    100% { background-position: 0 0; }
+    0% {
+        background-position: 1rem 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
 
 /* Circular Progress */
@@ -1690,7 +1701,6 @@ a.badge-info:focus {
     font-weight: 700;
     color: var(--dark-color, #343a40);
 }
-
 
 /* Tabs Component */
 
@@ -1751,8 +1761,15 @@ a.badge-info:focus {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Tab Variants */
@@ -1804,18 +1821,18 @@ a.badge-info:focus {
     .tab-list {
         flex-wrap: wrap;
     }
-    
+
     .tab-link {
         flex: 1;
         text-align: center;
         padding: 0.5rem 1rem;
         font-size: 0.875rem;
     }
-    
+
     .tabs-vertical {
         flex-direction: column;
     }
-    
+
     .tabs-vertical .tab-list {
         flex-direction: row;
         border-right: none;
@@ -1823,7 +1840,6 @@ a.badge-info:focus {
         min-width: auto;
     }
 }
-
 
 /* Accordion Component */
 
@@ -1916,6 +1932,7 @@ a.badge-info:focus {
         opacity: 0;
         transform: translateY(-10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -1969,7 +1986,6 @@ a.badge-info:focus {
     background: rgba(255, 193, 7, 0.1);
     color: var(--warning-color, #ffc107);
 }
-
 
 /* Dropdown Component */
 
@@ -2032,6 +2048,7 @@ a.badge-info:focus {
         opacity: 0;
         transform: translateY(-10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -2172,7 +2189,6 @@ a.badge-info:focus {
 .dropdown-menu-dark .dropdown-divider {
     border-top-color: var(--dark-border, #495057);
 }
-
 
 /* Tooltips Component */
 
@@ -2353,15 +2369,21 @@ a.badge-info:focus {
 }
 
 @keyframes tooltipBounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-10px);
     }
+
     60% {
         transform: translateY(-5px);
     }
 }
-
 

@@ -1,12 +1,13 @@
 {
   "name": "geeks-ui-framework",
-  "version": "1.0.1",
-  "description": "A modern, lightweight CSS framework for developers. Build beautiful interfaces with minimal effort.",
+  "version": "2.0.0",
+  "description": "A modern, lightweight CSS framework with 15+ components for developers. Build beautiful interfaces with minimal effort.",
   "main": "dist/geeks-ui.css",
   "style": "dist/geeks-ui.css",
   "files": [
     "dist/",
     "src/",
+    "components/",
     "README.md",
     "LICENSE"
   ],
@@ -28,22 +29,32 @@
     "frontend",
     "responsive",
     "lightweight",
-    "geeks-ui"
+    "geeks-ui",
+    "geeksforgeeks",
+    "forms",
+    "cards",
+    "modal",
+    "badges",
+    "progress",
+    "tabs",
+    "accordion",
+    "dropdown",
+    "tooltips"
   ],
   "author": {
-    "name": "Joey Cadieux",
-    "email": "joey@tech-center.com",
-    "url": "https://tech-center.com"
+    "name": "GeeksforGeeks",
+    "email": "contribute@geeksforgeeks.org",
+    "url": "https://www.geeksforgeeks.org"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Geeks-UI-Css-Framework.git"
+    "url": "git+https://github.com/GeeksforGeeks/Geeks_UI.git"
   },
   "bugs": {
-    "url": "https://github.com/Geeks-UI-Css-Framework/issues"
+    "url": "https://github.com/GeeksforGeeks/Geeks_UI/issues"
   },
-  "homepage": "https://geeks-ui-cdn.netlify.app",
+  "homepage": "https://github.com/GeeksforGeeks/Geeks_UI#readme",
   "devDependencies": {
     "clean-css-cli": "^5.6.2",
     "chokidar-cli": "^3.0.0"
