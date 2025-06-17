@@ -1,7 +1,9 @@
 # Geeks UI Framework v2.0
 
-[![npm version](https://badge.fury.io/js/geeks-ui-framework.svg)](https://badge.fury.io/js/geeks-ui-framework)
+[![npm version](https://img.shields.io/npm/v/geeks-ui-framework.svg)](https://www.npmjs.com/package/geeks-ui-framework)
+[![npm downloads](https://img.shields.io/npm/dm/geeks-ui-framework.svg)](https://www.npmjs.com/package/geeks-ui-framework)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/release/Geeks-UI-Css-Framework/Geeks_UI.svg)](https://github.com/Geeks-UI-Css-Framework/Geeks_UI/releases)
 
 A modern, lightweight CSS framework with 15+ components for developers. Build beautiful interfaces with minimal effort.
 
@@ -18,7 +20,7 @@ npm install geeks-ui-framework@2.0.0
 ```
 
 ### Download
-Download the latest release from our [GitHub repository](https://github.com/GeeksforGeeks/Geeks_UI/releases).
+Download the latest release from our [GitHub repository](https://github.com/Geeks-UI-Css-Framework/Geeks_UI/releases).
 
 ## 📖 Usage
 

@@ -1,6 +1,6 @@
 {
   "name": "geeks-ui-framework",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "A modern, lightweight CSS framework with 15+ components for developers. Build beautiful interfaces with minimal effort.",
   "main": "dist/geeks-ui.css",
   "style": "dist/geeks-ui.css",
@@ -49,12 +49,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GeeksforGeeks/Geeks_UI.git"
+    "url": "git+https://github.com/Geeks-UI-Css-Framework/Geeks_UI.git"
   },
   "bugs": {
-    "url": "https://github.com/GeeksforGeeks/Geeks_UI/issues"
+    "url": "https://github.com/Geeks-UI-Css-Framework/Geeks_UI/issues"
   },
-  "homepage": "https://github.com/GeeksforGeeks/Geeks_UI#readme",
+  "homepage": "https://github.com/Geeks-UI-Css-Framework/Geeks_UI#readme",
   "devDependencies": {
     "clean-css-cli": "^5.6.2",
     "chokidar-cli": "^3.0.0"
