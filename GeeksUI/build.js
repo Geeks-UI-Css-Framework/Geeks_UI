@@ -8,14 +8,23 @@ const files = [
     'alerts.css',
     'buttons.css',
     'navigation.css',
-    'footer.css'
+    'footer.css',
+    'forms.css',
+    'cards.css',
+    'modal.css',
+    'badges.css',
+    'progress.css',
+    'tabs.css',
+    'accordion.css',
+    'dropdown.css',
+    'tooltips.css'
 ];
 
 // Header comment
 const header = `/*!
- * Geeks UI v1.0.0
+ * Geeks UI v1.1.0
  * A modern, lightweight CSS framework for developers
- * https://geeks-ui-cdn.netlify.app
+ * https://geeks-ui-css-framework.github.io/Geeks_UI/
  * 
  * Copyright 2025 Joey Cadieux
  * Licensed under MIT
